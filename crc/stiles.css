@@ -1,0 +1,16 @@
+*{
+    margin: 0.3rem;
+    padding: 0;
+    box-sizing: border-box;
+}
+.users{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:1rem;
+    }
+.users div{
+    padding: 1rem;
+    border-radius: 2rem;
+    background-color: aqua;
+}
